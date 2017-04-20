@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xuyuanhao.callphone.MainActivity">
+
+    <EditText
+        android:id="@+id/etCallNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:hint="输入拨打号码"/>
+
+    <TextView
+        android:id="@+id/tvCallTime"
+        android:layout_below="@id/etCallNumber"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_height="40dp"
+        android:text="通话时长:"/>
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_below="@id/tvCallTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨号"/>
+</RelativeLayout>
